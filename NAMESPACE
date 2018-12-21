@@ -1,0 +1,8 @@
+import(BSgenome)
+import(BSgenome.Mmusculus.UCSC.mm10)
+
+### Don't export BSgenome.Mmusculus.UCSC.mm10.masked (the name of the MaskedBSgenome object defined in
+### this package): the object is created and its name is dynamically exported
+### at load time (refer to R/zzz.R for the details).
+#export(BSgenome.Mmusculus.UCSC.mm10.masked)
+
